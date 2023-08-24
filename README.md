@@ -23,4 +23,9 @@ In our case the name of the app is bitroot
 In your React app directory, create a file named records.json to hold your API data.
 
 Note : You can directly clone this repository to get the 'records.json' and updated App.js file
-![data](image link)
+
+This is how the data looks like in the json file
+![data](https://github.com/Hrishikeshhelge/bitroot-org_frontend-engineer-test/blob/main/records.json.png)
+
+## Step 4: Fetch and Display API Data
+Edit the src/App.js file to fetch and display the API data. You can use the fetch function or a library like axios to retrieve data from the records.json file.
