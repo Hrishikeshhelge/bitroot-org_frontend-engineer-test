@@ -23,3 +23,4 @@ In our case the name of the app is bitroot
 In your React app directory, create a file named records.json to hold your API data.
 
 Note : You can directly clone this repository to get the 'records.json' and updated App.js file
+![data](image link)
