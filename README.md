@@ -29,3 +29,21 @@ This is how the data looks like in the json file
 
 ## Step 4: Fetch and Display API Data
 Edit the src/App.js file to fetch and display the API data. You can use the fetch function or a library like axios to retrieve data from the records.json file.
+
+In the return section of the code, we have written the logic to pull the data from the key-value pairs of the json file, which we want to display on our user interface.
+![data](https://github.com/Hrishikeshhelge/bitroot-org_frontend-engineer-test/blob/main/App.js.png)
+
+## Step 5: Format Date
+If your date values are in bit format '"date": 1606311631' , you might want to create a utility function to convert them into human-readable form.
+
+Here is the logic for the date format conversion
+![data](https://github.com/Hrishikeshhelge/bitroot-org_frontend-engineer-test/blob/main/Date%20Conversion%20Logic.png)
+
+## Step 6: UI Enhancement
+To enhance the UI, you can make changes to the src/App.css file. For example, adjusting text alignment:
+![data](https://github.com/Hrishikeshhelge/bitroot-org_frontend-engineer-test/blob/main/App%20UI%20(1).png)
+![data](https://github.com/Hrishikeshhelge/bitroot-org_frontend-engineer-test/blob/main/App%20UI%20(2).png)
+
+
+Triumphantly, I've crafted a React app from the ground up, seamlessly retrieving and exhibiting data including text, dates, and images via APIs. Witnessing this information come to life on the user interface was truly gratifying. As I reflect, I recognize the immense potential for refining the user experience. Responsive design enhancements stand as a promising avenue, alongside the prospect of integrating additional features for heightened usability. These are objectives I ardently plan to pursue in due course. For now, this project stands as a testament to my current accomplishments - a tangible embodiment of the strides I've taken.
+
